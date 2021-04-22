@@ -1,0 +1,32 @@
+<defs>
+    <marker
+        viewBox="0 0 8.4666666 8.4666666"
+        id="double-head"
+        refX="4.2333333"
+        refY="4.2333333"
+        markerUnits="userSpaceOnUse"
+        markerWidth="16"
+        markerHeight="16"
+        orient="auto-start-reverse"
+    >
+        <g>
+            <path
+                style="fill:none;stroke:#000000;stroke-width:1.05833333;stroke-linecap:round;stroke-linejoin:round"
+                d="m 2.1166667,1.0583333 4.2333333,3.175 -4.2333333,3.175"
+                id="path835"
+            />
+        </g>
+    </marker>
+</defs>
+<path
+    id="MyPath"
+    fill="none"
+    stroke="red"
+    stroke-dasharray="200 60"
+    marker-end="url(#double-head)"
+    marker-start="url(#double-head)"
+    d="M 20 50 l 460 0"
+/>
+<text transform="rotate(90, 250, 50)">
+    <textPath href="#MyPath" alignment-baseline="middle" startOffset="50%" text-anchor="middle"> 50% </textPath>
+</text>
